@@ -1,0 +1,32 @@
+# New features
+# feat:
+
+# Bug fixes
+# fix:
+
+# Documentation changes
+# docs:
+
+# Code style/formatting (no logic change)
+# style:
+
+# Code restructuring (no new features)
+# ref:
+
+# Performance improvements
+# perf:
+
+# Tets-related changes
+# test:
+
+# Maintaince tasks (configs, etc.)
+# chore:
+
+# Build system changes
+# build:
+
+# CI/CD changes
+# ci:
+
+# Reverting a previous commit
+# revert:
