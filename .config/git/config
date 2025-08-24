@@ -1,118 +1,119 @@
 [user]
-    name = lekomish
-    email = lekomish@gmail.com
-    signingKey = F40EF4579C0040DD12E51C4FDF60542A4671EA8C
+  name = lekomish
+  email = lekomish@gmail.com
+  signingKey = 4A95416507F152AC6297231525A5821C2EB84C54
 
 [commit]
-    gpgSign = true
-    template = ~/.config/git/template
-    verbose = true
+  gpgSign = true
+  template = ~/.config/git/template
+  verbose = true
 
 [core]
-    autocrlf = true
-    compression = 9
-    whitespace = error
-    preloadindex = true
-    editor = /usr/bin/nvim
+  autocrlf = input
+  compression = 9
+  whitespace = error
+  preloadindex = true
+  editor = /usr/bin/nvim
 
 [blame]
-    coloring = highlightRecent
-    date = relative
+  coloring = highlightRecent
+  date = relative
 
 [diff]
-    context = 3
-    renames = copies
-    interHunkContext = 10
+  context = 3
+  renames = copies
+  interHunkContext = 10
 
 [init]
-    defaultBranch = main
+  defaultBranch = main
 
 [log]
-    abbrevCommit = true
-    graphColors = blue,yellow,cyan,magenta,green,red
+  abbrevCommit = true
+  graphColors = blue,yellow,cyan,magenta,green,red
 
 [status]
-    branch = true
-    short = true
-    showStash = true
-    showUntrackedFiles = all
+  branch = true
+  short = true
+  showStash = true
+  showUntrackedFiles = all
 
 [pager]
-    branch = false
-    tag = false
-    diff = diff-so-fancy | $PAGER
+  branch = false
+  tag = false
+  diff = diff-so-fancy | $PAGER
 
 [push]
-    autoSetupRemote = true
-    default = current
-    followTags = true
+  autoSetupRemote = true
+  default = current
+  followTags = true
 
 [pull]
-    default = current
+  default = current
 
 [submodules]
-    fetchJobs = 16
+  fetchJobs = 16
 
 [rebase]
-    autoStash = true
-    missingCommitsCheck = warn
+  autoStash = true
+  missingCommitsCheck = warn
 
 [pack]
-    threads = 0
-    windowMemory = 1g
-    packSizeLimit = 1g
+  threads = 0
+  windowMemory = 1g
+  packSizeLimit = 1g
 
 # Integrity
 [transfer]
-    fsckObjects = true
+  fsckObjects = true
 
 [receive]
-    fsckObjects = true
+  fsckObjects = true
 
 [fetch]
-    fskObjects = true
+  fsckObjects = true
 
 [branch]
-    sort = -committerdate
+  sort = -committerdate
 
 [tag]
-    sort = -taggerdate
+  sort = -taggerdate
 
 # Colors
 [color "blame"]
-    highlightRecent = black bold,1 year ago,white,1 month ago,default,7 days ago,blue
+  highlightRecent = black bold,1 year ago,white,1 month ago,default,7 days ago,blue
 
 [color "branch"]
-    current = magenta
-    local = default
-    remote = yellow
-    upstream = green
-    plain = blue
+  current = magenta
+  local = default
+  remote = yellow
+  upstream = green
+  plain = blue
 
 [color "diff"]
-    meta = black bold
-    frag = magenta
-    context = white
-    whitespace = yellow reverse
-    old = red
+  meta = black bold
+  frag = magenta
+  context = white
+  whitespace = yellow reverse
+  old = red
 
 [color.decorate]
-    HEAD = red
-    branch = blue
-    tag = yellow
-    remoteBranch = magenta
+  HEAD = red
+  branch = blue
+  tag = yellow
+  remoteBranch = magenta
 
 [interactive]
-    diffFilter = diff-so-fancy --patch
-    singlekey = true
+  diffFilter = diff-so-fancy --patch
+  singlekey = true
 
 # Third-party: diff-so-fancy
 [diff-so-fancy]
-    markEmptyLines = false
+  markEmptyLines = false
 
 # URL shortcuts
 [url "git@github.com:"]
-    insteadOf = "gh:"
+  insteadOf = "gh:"
 
 [url "git@github.com:lekomish/"]
-    insteadOf = "lk:"
+  insteadOf = "lk:"
+
