@@ -32,8 +32,10 @@ git clone https://github.com/lekomish/dotfiles.git ~/.dotfiles
 cd ~/.dotfiles && stow .
 ```
 
-4. Source aliases from `./.config/shell/aliases.sh`
+4. Source files from `./.config/shell`
 
 ```shell
 source ~/.config/shell/aliases.sh
+source ~/.config/shell/setup_gpg.sh
+source ~/.config/shell/tools_setup.sh
 ```
